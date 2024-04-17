@@ -1,3 +1,5 @@
+--SQL INTERMEDIATE QUESTIONS
+
 SELECT a.id, ua.first_name, a.last_name, c.id, c.customer_name, COUNT(*)
 FROM contact contacts
 INNER JOIN customer c ON c.id=contacts.customer_id
